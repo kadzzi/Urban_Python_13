@@ -88,6 +88,7 @@ async def send_calories_male(call, state):
     data = await state.get_data()
     result = 10 * int(data['weight']) + 6.25 * int(data['growth']) - 5 * int(data['age']) + 5
     await call.message.answer(f"Оптимальное количество калорий: {result}")
+    await call.answer()
     await state.finish()
 
 
@@ -96,6 +97,7 @@ async def send_calories_male(call, state):
     data = await state.get_data()
     result = 10 * int(data['weight']) + 6.25 * int(data['growth']) - 5 * int(data['age']) - 161
     await call.message.answer(f"Оптимальное количество калорий: {result}")
+    await call.answer()
     await state.finish()
 
 

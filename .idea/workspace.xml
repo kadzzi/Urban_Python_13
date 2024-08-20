@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="added module_13_6.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="added module_13_6_adv.py, module_13_6_adv2.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724163784343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added module_13_6_adv.py, module_13_6_adv2.py">
+      <option name="closed" value="true" />
+      <created>1724170124377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724170124377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +197,7 @@
     <MESSAGE value="edited module_13_4.py result message&#10;added module_13_5.py" />
     <MESSAGE value="edited module_13_4.py, module_13_5.py (.lower() to input gender text)" />
     <MESSAGE value="added module_13_6.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_13_6.py" />
+    <MESSAGE value="added module_13_6_adv.py, module_13_6_adv2.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module_13_6_adv.py, module_13_6_adv2.py" />
   </component>
 </project>
