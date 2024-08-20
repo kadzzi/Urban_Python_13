@@ -93,7 +93,7 @@ async def send_calories_male(call, state):
 
 
 @dp.callback_query_handler(state=UserState.gender, text="female")
-async def send_calories_male(call, state):
+async def send_calories_female(call, state):
     data = await state.get_data()
     result = 10 * int(data['weight']) + 6.25 * int(data['growth']) - 5 * int(data['age']) - 161
     await call.message.answer(f"Оптимальное количество калорий: {result}")
