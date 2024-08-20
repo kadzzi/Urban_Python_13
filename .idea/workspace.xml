@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="edited module_13_4.py result message&#10;added module_13_5.py">
+    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="edited module_13_4.py, module_13_5.py (.lower() to input gender text)">
+      <change afterPath="$PROJECT_DIR$/module_13_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_13_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_13_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_13_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_13_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "Python.module_13_3.executor": "Run",
     "Python.module_13_4.executor": "Run",
     "Python.module_13_5.executor": "Run",
+    "Python.module_13_6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -159,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724160178209</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="edited module_13_4.py, module_13_5.py (.lower() to input gender text)">
+      <option name="closed" value="true" />
+      <created>1724160969116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724160969116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +180,7 @@
     <MESSAGE value="edited module_13_4.py added start func" />
     <MESSAGE value="edited module_13_4.py deleted token" />
     <MESSAGE value="edited module_13_4.py result message&#10;added module_13_5.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited module_13_4.py result message&#10;added module_13_5.py" />
+    <MESSAGE value="edited module_13_4.py, module_13_5.py (.lower() to input gender text)" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_13_4.py, module_13_5.py (.lower() to input gender text)" />
   </component>
 </project>
