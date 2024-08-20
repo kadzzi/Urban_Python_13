@@ -1,11 +1,18 @@
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 
 api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
+
+
+kb = ReplyKeyboardMarkup(resize_keyboard=True)
+calc_button = KeyboardButton(text="Рассчитать")
+info_button = KeyboardButton(text="Информация")
+kb.row(calc_button, info_button)
 
 
 class UserState(StatesGroup):
@@ -17,10 +24,15 @@ class UserState(StatesGroup):
 
 @dp.message_handler(commands=['start'])
 async def start(message):
-    await message.answer("Привет! Я бот помогающий твоему здоровью.")
+    await message.answer("Привет! Я бот помогающий твоему здоровью.", reply_markup=kb)
 
 
-@dp.message_handler(text=['Calories'])
+@dp.message_handler(text=["Информация"])
+async def get_info(message):
+    await message.answer("Производится расчет оптимального числа калорий по формуле Миффлина-Сан Жеора")
+
+
+@dp.message_handler(text=["Рассчитать"])
 async def set_gender(message):
     await message.answer("Введите свой пол [м/ж]:")
     await UserState.gender.set()
