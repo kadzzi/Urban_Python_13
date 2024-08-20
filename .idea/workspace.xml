@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="edited module_13_2.py renamed func to all_messages" />
+    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="edited module_13_3.py deleted api">
+      <change afterPath="$PROJECT_DIR$/module_13_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +49,8 @@
     "Python.lesson_practice_1.executor": "Run",
     "Python.module_13_1.executor": "Run",
     "Python.module_13_2.executor": "Run",
+    "Python.module_13_3.executor": "Run",
+    "Python.module_13_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -96,13 +101,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723817351128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added module_13_3.py">
+      <option name="closed" value="true" />
+      <created>1723830931417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723830931417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edited module_13_3.py deleted api">
+      <option name="closed" value="true" />
+      <created>1723831004469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723831004469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added module_13_1.py and lesson_practice_1.py" />
     <MESSAGE value="added module_13_2.py" />
     <MESSAGE value="edited module_13_2.py renamed func to all_messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited module_13_2.py renamed func to all_messages" />
+    <MESSAGE value="added module_13_3.py" />
+    <MESSAGE value="edited module_13_3.py deleted api" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_13_3.py deleted api" />
   </component>
 </project>
