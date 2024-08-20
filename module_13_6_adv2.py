@@ -56,7 +56,7 @@ async def get_formulas(call):
 
 
 @dp.callback_query_handler(text="calories")
-async def set_age(call, state):
+async def set_age(call):
     await call.message.answer("Введите свой возраст (полных лет):")
     await call.answer()
     await UserState.age.set()

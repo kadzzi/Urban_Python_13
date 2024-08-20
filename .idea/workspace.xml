@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="added module_13_6_adv.py, module_13_6_adv2.py" />
+    <list default="true" id="cf03baa8-1046-4a4f-a1bb-515d18ae3abd" name="Changes" comment="edited module_13_6_adv2.py renamed female func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724170124377</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="edited module_13_6_adv2.py await call.answer() after calculations">
+      <option name="closed" value="true" />
+      <created>1724171082633</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724171082633</updated>
+    </task>
+    <task id="LOCAL-00015" summary="edited module_13_6_adv2.py renamed female func">
+      <option name="closed" value="true" />
+      <created>1724171146438</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724171146438</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +214,8 @@
     <MESSAGE value="edited module_13_4.py, module_13_5.py (.lower() to input gender text)" />
     <MESSAGE value="added module_13_6.py" />
     <MESSAGE value="added module_13_6_adv.py, module_13_6_adv2.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_13_6_adv.py, module_13_6_adv2.py" />
+    <MESSAGE value="edited module_13_6_adv2.py await call.answer() after calculations" />
+    <MESSAGE value="edited module_13_6_adv2.py renamed female func" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_13_6_adv2.py renamed female func" />
   </component>
 </project>
