@@ -40,7 +40,7 @@ async def set_gender(message):
 
 @dp.message_handler(state=UserState.gender, text=['М', 'м', 'Ж', 'ж'])
 async def set_age(message, state):
-    await state.update_data(gender=message.text)
+    await state.update_data(gender=message.text.lower())
     await message.answer("Введите свой возраст (полных лет):")
     await UserState.age.set()
 
@@ -64,10 +64,10 @@ async def send_calories(message, state):
     await state.update_data(weight=message.text)
     data = await state.get_data()
     raw_calories = 10 * int(data['weight']) + 6.25 * int(data['growth']) - 5 * int(data['age'])
-    if data['gender'].lower() == 'м':
+    if data['gender'] == 'м':
         result = raw_calories + 5
         await message.answer(f"Оптимальное количество калорий: {result}")
-    elif data['gender'].lower() == 'ж':
+    elif data['gender'] == 'ж':
         result = raw_calories - 161
         await message.answer(f"Оптимальное количество калорий: {result}")
 
